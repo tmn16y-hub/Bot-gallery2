@@ -71,17 +71,17 @@ def send_message(chat_id, text):
 
 def send_start(chat_id):
     keyboard = {
-        "keyboard": [[
-            {
-                "text": "Перейти",
-                "web_app": {
-                    "url": WEBAPP_URL
-                }
+    "keyboard": [[
+        {
+            "text": "📸 Открыть галерею",
+            "web_app": {
+                "url": WEBAPP_URL
             }
-        ]],
-        "resize_keyboard": True,
-        "is_persistent": True
-    }
+        }
+    ]],
+    "resize_keyboard": True,
+    "is_persistent": True
+}
 
     telegram("sendMessage", {
         "chat_id": chat_id,
