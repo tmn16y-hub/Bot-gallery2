@@ -6,11 +6,7 @@ if (tg) {
 }
 
 const photos = [
-  {src:"photos/20261007_184755.jpg", user:"@AntonRadaev", time:"07.10 18:47"},
-
-  {src:"photos/1.jpg", user:"@Админ", time:"07.10 00:43"},
-  {src:"photos/2.jpg", user:"@Админ", time:"07.10 00:35"},
-  {src:"photos/3.jpg", user:"@Админ", time:"06.10 23:58"},
+  
 ];
 
 const feed = document.getElementById("feed");
